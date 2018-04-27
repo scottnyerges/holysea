@@ -1,7 +1,7 @@
 .wrapper {
 	width: 100%;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	background-color: GhostWhite;
 	font-family: Arial, Helvetica, sans-serif;	
 }
@@ -16,6 +16,7 @@ header {
 
 img {
 	width: 100%;
+	max-width: 400px;
 	height: auto;
 	border: 0px;
 	text-align: center;
@@ -26,6 +27,7 @@ img {
 p {
 	font-family: Arial, Helvetica, sans-serif;	
 	font-size: 12px;
+	text-align: left;
 
 }
 
@@ -49,22 +51,21 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: left;
+}
+
 h2#center {
 	text-align: center;
 }
 
-h3, h4, h5 {
-	margin-top: 0px;
-	margin-bottom: 5px;
-}
-
-h5, h6 {
-	margin-bottom: -5px;
-}
-
-h6 {
+h3, h4, h5, h6 {
 	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
 }
+
+
 
 nav {
 	padding: 0px;
@@ -107,7 +108,7 @@ footer {
 #footContainer h6 {
 	font-size: 11px;
 	text-align: center;
-	margin-top: -15px;
+/*	margin-top: -15px;*/
 }
 
 #footContainer img {
