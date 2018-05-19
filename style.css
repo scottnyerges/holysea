@@ -1,11 +1,37 @@
 .wrapper {
 	width: 100%;
+	margin: 0px auto;
 	position: relative;
 	text-align: center;
-	background-color: GhostWhite;
 	font-family: 'Roboto', sans-serif;
-	
 }
+
+/*SLIDES*/
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+
+/*LAYOUT*/
 
 header {
 	clear: both;
@@ -13,6 +39,8 @@ header {
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
+	font-family: 'Cardo', serif;
+
 }
 
 img {
@@ -40,6 +68,8 @@ p {
 a {
 	text-decoration: none;
 	color: black;
+	font-family: 'Cardo', serif;
+
 }
 
 a:hover {
@@ -104,7 +134,7 @@ footer {
 
 #footContainer {
 	width: 100%;
-	border-top: 1px solid black;
+	border-top: 0.5px solid black;
 }
 
 #footContainer p {
@@ -125,7 +155,7 @@ footer {
 
 #headContainer {
 	width: 100%;
-	border-bottom: 2px solid black;
+	border-bottom: 0.5px solid black;
 }
 
 #topLogo {
@@ -160,7 +190,7 @@ footer {
 }
 
 #secondContainer {
-	border-top: 1px solid black;
+	border-top: 0.5px solid black;
 	width: 100%;
 	margin: 0px;
 }
@@ -180,7 +210,7 @@ footer {
 }
 
 #thirdContainer {
-	border-top: 1px solid black;
+	border-top: 0.5px solid black;
 	width: 100%;
 	margin: 0px;
 }
@@ -269,5 +299,10 @@ footer {
 	h3, h4, h5, h6 {margin-top: 5px;}
 	a { font-size: 14px;}
 
+	.wrapper {
+	margin: 15px auto;
+
 }
+
 }
+

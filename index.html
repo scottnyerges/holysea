@@ -15,6 +15,8 @@
  -->    <link rel="stylesheet" href="style.css" type="text/css">
   <!-- google fonts -->
  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+
   </head>
   <body>
 
@@ -22,41 +24,18 @@
     <div class="wrapper">
 
 <!-- header goes here -->
-<!--       <div id="headContainer">
+      <div id="headContainer">
         <header>
-          <div class="section group"> -->
+          <div class="section group">
 <!-- navigation menu goes here -->
-<!--             <div class="col span_6_of_6">
-              <nav>
-                <ul id="menu">
-                  <li>
-                    <a href="abstract.html">program</a>
-                  </li>
-                  <li>
-                    <a href="http://centerforvisualmusic.org/Symposium/registration.htm" target="_blank">registration</a>
-                  </li>
-                  <li>
-                    <a href="">schedule</a>
-                  </li>                  
-                  <li>
-                    <a href="speaker.html">speakers</a>
-                  </li>
-                  <li>
-                    <a href="screenings.html">screenings</a>
-                  </li>
-                  <li>
-                    <a href="">events</a>
-                  </li>
-                 <li>
-                    <a href="http://www.sonoma.edu/directions" target="_blank">location</a>
-                  </li>
-                </ul>
-              </nav>
+            <div class="col span_6_of_6">
+              <h3>the holy sea</h3>
             </div>
           </div>
-        </header> -->
+        </header>
 <!-- close headContainer -->
-<!--       </div> -->
+      </div>
+
 
 <!-- main content goes here-->
       <div id="mainContainer">
@@ -64,33 +43,33 @@
           <div class="section group">
             <div class="col span_1_of_6 push"></div>
             <div class="col span_4_of_6">
-              <h1>the holy sea</h1>
-<!--               <h2 id="center">subhead</h2>
- -->            </div> 
-            <div class="col span_1_of_6 push"></div>
 
-<!-- close the section group -->
-          </div> 
-<!-- close mainContent -->
-        </div> 
-<!-- close mainContainer -->
-      </div>
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="images/record.png" style="width:100%">
+                </div>
 
+                <div class="mySlides fade">
+                  <img src="images/record2.png" style="width:100%">
+                </div>
 
-<!-- secondary content goes here-->
-      <div id="secondContainer">
-        <div id="secondContent">
-          <div class="section group">
-            <div class="col span_1_of_6 push"></div>
-            <div class="col span_4_of_6">
-              <img src="images/placeholder.jpeg">
-              <h4><a href="about.html">about</a> • <a href="listen.html">listen</a> • <a href="contact.html">contact</a></h4>
+                <div class="mySlides fade">
+                  <img src="images/record3.png" style="width:100%">
+                </div>
+              </div>
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+
+              <h3><a href="about.html">about</a> • <a href="listen.html">listen</a> • <a href="artists.html">artists</a> • <a href="live.html">live</a></h3>
             </div>   
             <div class="col span_1_of_6 push"></div>                                    
           </div>
-<!-- close secondContent -->
+<!-- close mainContent -->
         </div> 
-<!-- close secondContainer -->
+<!-- close mainContainer -->
       </div>
 
 
@@ -109,6 +88,32 @@
       </div>
       <!-- close the wrapper -->
     </div>
+
+<!-- slideshow script -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+
     <!-- close the body -->
   </body>
 </html>
