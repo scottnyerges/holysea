@@ -105,28 +105,6 @@ h3, h4, h5, h6 {
 }
 
 
-
-nav {
-	padding: 0px;
-	width: 100%;
-	float: right;
-}
-
-nav ul#menu {
-	float: right;
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-nav ul#menu li {
-	display: block;
-	float: left;
-	text-align: center;
-	position: relative;
-	padding: 5px;
-}
-
 footer {
 	clear: both;
 	max-width: 1200px;
@@ -178,7 +156,7 @@ footer {
 
 #mainContainer img {
 	width: 100%;
-	max-width: 400px;
+	max-width: 350px;
 	height: auto;
 	vertical-align: middle;
 	text-align: center;
