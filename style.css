@@ -47,7 +47,7 @@ img {
 	width: 100%;
 	max-width: 400px;
 	height: auto;
-	border: 0px;
+	border-radius: 15px;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -79,12 +79,14 @@ a:hover {
 h1 {
 	font-size: 32px;
 	text-align: center;
+		font-family: 'Cardo', serif;
 }
 
 h2 {
 	text-align: left;
 	margin-bottom: 0px;
 	margin-top: 0px;
+		font-family: 'Cardo', serif;
 }
 
 h2#center {
@@ -99,6 +101,7 @@ h3, h4, h5, h6 {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	text-align: center;
+		font-family: 'Cardo', serif;
 }
 
 
@@ -175,7 +178,7 @@ footer {
 
 #mainContainer img {
 	width: 100%;
-	max-width: 500px;
+	max-width: 400px;
 	height: auto;
 	vertical-align: middle;
 	text-align: center;
@@ -300,9 +303,8 @@ footer {
 	a { font-size: 14px;}
 
 	.wrapper {
-	margin: 15px auto;
+	margin: 15px auto;}
 
-}
 
 }
 
