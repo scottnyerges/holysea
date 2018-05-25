@@ -1,3 +1,5 @@
+
+
 .wrapper {
 	width: 100%;
 	margin: 0px auto;
@@ -14,7 +16,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 550px;
   position: relative;
   margin: auto;
 }
@@ -44,9 +46,8 @@ header {
 
 img {
 	width: 100%;
-	max-width: 400px;
 	height: auto;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -153,10 +154,8 @@ footer {
 
 #mainContainer img {
 	width: 100%;
-	max-width: 350px;
+	max-width: 500px;
 	height: auto;
-	vertical-align: middle;
-	text-align: center;
 }
 
 #mainContent {
@@ -180,7 +179,7 @@ footer {
 
 #secondContent {
 	clear: both;
-	max-width: 1200 px;
+	max-width: 1200px;
 	position: relative;
 	margin: 0 auto;
 	padding: 10px;
