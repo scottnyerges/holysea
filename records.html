@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>the holy sea</title>
+    <meta name="The Holy Sea" content="Mike Vernusky">
+  <!-- CSS -->
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+  <!-- 
+  <link rel="stylesheet" href="page.css">
+  <link rel="stylesheet" href="photo.css"> -->
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+
+  <!-- JavaScript -->
+
+  <script src="modal.js"></script>
+
+</head>
+
+<body>
+<!-- one wrapper to bind them all -->
+    <div class="wrapper">
+<!-- header goes here -->
+      <div id="headContainer">
+        <header>
+          <div class="section group">
+<!-- navigation menu goes here -->
+            <div class="col span_6_of_6">
+              <h3><a href="index.html">the holy sea</a></h3>
+            </div>
+          </div>
+        </header>
+<!-- close headContainer -->
+      </div>
+          
+          <div class="scrollmenu">
+            <img src="images/disc1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="images/disc2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <img src="images/disc3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            <img src="images/disc4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            <img src="images/disc5.jpg">
+            <img src="images/disc6.jpg">
+            <img src="images/disc7.jpg">
+            <img src="images/disc8.jpg">
+            <img src="images/disc1.jpg">
+            <img src="images/disc2.jpg">
+            <img src="images/disc3.jpg">
+            <img src="images/disc4.jpg">
+            <img src="images/disc5.jpg">
+            <img src="images/disc6.jpg">
+            <img src="images/disc7.jpg">
+            <img src="images/disc8.jpg">
+            <img src="images/disc1.jpg">
+            <img src="images/disc2.jpg">
+            <img src="images/disc3.jpg">
+            <img src="images/disc4.jpg">
+            <img src="images/disc5.jpg">
+            <img src="images/disc6.jpg">
+            <img src="images/disc7.jpg">
+            <img src="images/disc8.jpg">
+          </div>
+
+
+
+<!-- main content goes here-->
+      <div id="mainContainer">
+        <div id="mainContent">
+
+          <!-- The Modal/Lightbox -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+              <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/disc1.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/disc2.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/disc3.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/disc4.jpg" style="width:100%">
+              </div>
+
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+              <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images/disc1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/disc2.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/disc3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/disc4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+      </div>
+</div>
+
+          <div class="section group">
+            <div class="col span_1_of_6 push"></div>
+            <div class="col span_4_of_6">
+              <h2>this is a header</h2>
+              <h4>so is this</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.</p>
+              <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.</p> 
+            </div>
+            <div class="col span_1_of_6 push"></div>                                    
+          </div>
+
+
+          <div class="section group">
+            <div class="col span_1_of_6 push"></div>
+            <div class="col span_4_of_6">
+              <h3><a href="about.html">about</a> • <a href="listen.html">listen</a> • <a href="artists.html">artists</a> • <a href="live.html">live</a></h3>
+            </div>
+            <div class="col span_1_of_6 push"></div>                                    
+          </div>
+<!-- close secondContent -->
+        </div> 
+<!-- close secondContainer -->
+      </div>
+
+
+<!-- footer goes here -->
+      <div id="footContainer">
+        <footer>
+          <div class="section group">
+            <div class="col span_1_of_6 push"></div>
+            <div class="col span_4_of_6">
+              <h6>social icons here</h6>
+            </div>
+            <div class="col span_1_of_6 push"></div>
+          </div>  
+
+        </footer>
+      </div>
+      <!-- close the wrapper -->
+    </div>
+
+    <!-- close the body -->
+  </body>
+</html>
