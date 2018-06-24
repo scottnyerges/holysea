@@ -1,0 +1,139 @@
+body {
+    background-color: ;
+    font-family: ;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.mainContent {
+    position: relative;
+    clear: both;
+}
+
+.content {
+    color: ;
+    font-family: ;
+    font-size: ;
+}
+
+.main {
+    background-color: ;
+}
+
+.bands {
+    padding: 45px 0;
+    background-image: url('images/panel1.png');
+    background-size: cover;
+}
+
+.row {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.row.noPadding {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.featureSlatLanding section.bands {
+    background-position: center top;
+}
+
+section.bands {
+    padding: 45px 0;
+    background-size: cover;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/*ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}*/
+
+.featureSlatLanding section.bands .featureSlats {
+    margin-top: 30px;
+}
+
+.featureSlats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    height: 300px;
+    background-color: linen;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-slats li a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 0 0;
+/*    width: 210px;
+*/    height: auto;
+}
+
+/*.feature-slats li a>* {
+    position: relative;
+    z-index: 1;
+}*/
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+@media only screen and (min-width: 768px) {
+.row {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+.column, .columns {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column, .columns {
+    position: relative;
+    float: left;
+}}    
+

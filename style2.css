@@ -2,13 +2,35 @@ body, html {
     height: 100%;
 }
 
+.hidden{
+  display: none;
+}
+
+#square {
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
 .parallax {
     /* The image used */
-    background-image: url('record1.png');
+/*    background-image: url('phonoImages/record3.jpg');
+*/    /* Full height */
+    height: 200px; 
+    background-color: ghostWhite;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.parallax1 {
+    display: none;
+    /* The image used */
+    background-image: url('images/turntable2.png');
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -18,24 +40,20 @@ body, html {
 
 .parallax2 {
     /* The image used */
-    background-image: url('record3.png');
-
+    background-image: url('images/panel1.png');
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
+/*    background-size: cover;
+*/}
 .parallax3 {
     /* The image used */
-    background-image: url('record3.jpg');
-
+    background-image: url('images/disc3.jpg');
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -45,11 +63,9 @@ body, html {
 
 .parallax4 {
     /* The image used */
-    background-image: url('recordleft.png');
-
+    background-image: url('images/recordleft.png');
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -60,10 +76,8 @@ body, html {
 .parallax5 {
     /* The image used */
     background-image: url('images/recordCollage.jpg');
-
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -74,13 +88,53 @@ body, html {
 .parallax6 {
     /* The image used */
     background-image: url('images/record_background.jpg');
-
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#paraText {
+    height: 300px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 200px;
+}
+
+#paraText2 {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: azure;
+    vertical-align: middle;
+}
+
+.paraTextBG {
+    background-image: url('images/turntableExploded.jpg');
+    opacity: 0.25;
+}
+
+#paraText h1 {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Cardo', serif;
+}
+
+#paraText h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    margin-top: -40px;
+}
+
+hr {
+    margin-top: -50px;
+}
+
