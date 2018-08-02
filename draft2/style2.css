@@ -1,0 +1,55 @@
+.wrapper {
+	width: 100%;
+	height: 1000px;
+	margin: 0px auto;
+	position: relative;
+	background-image: url("images/LPs/orangeWallaper.png");
+	font-family: 'Roboto', sans-serif;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2%;
+}
+.col:first-child { margin-left: 0; }
+
+.push {
+    visibility: hidden;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.6%;
+}
+.span_3_of_5 {
+	width: 59.2%;
+}
+.span_2_of_5 {
+	width: 38.8%;
+}
+.span_1_of_5 {
+	width: 18.4%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+}
