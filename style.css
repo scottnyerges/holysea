@@ -120,7 +120,7 @@ footer {
 }
 
 #mainContainer img {
-	width: 100%;
+	width: 90%;
 	height: auto;
 }
 
@@ -147,7 +147,7 @@ footer {
 }
 
 #secondContainer img {
-	max-width: 300px;
+	max-width: 400px;
 	height: auto;
 }
 
@@ -249,6 +249,11 @@ footer {
 		text-align: left;}
 	h3, h4, h5, h6 {margin-top: 5px;}
 	a { font-size: 14px;}
+
+#mainContainer img {
+	width: 100%;
+	height: auto;
+}
 
 	#secondContainer img {
 	max-width: 400px;
