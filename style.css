@@ -8,6 +8,8 @@
 
 /*LAYOUT*/
 
+
+
 header {
 	clear: both;
 	max-width: 1900px;
@@ -101,6 +103,7 @@ footer {
 #headContainer {
 	width: 100%;
 	border-bottom: 0.5px solid black;
+	
 }
 
 #topLogo {
@@ -125,10 +128,11 @@ footer {
 }
 
 #wallpaper {
-	background-image: url("images/LPs/orangewallaper.png");
+	background-image: url("images/firstdraft/panel1.png");
 	width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
